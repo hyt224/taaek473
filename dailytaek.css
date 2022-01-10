@@ -1,0 +1,94 @@
+h1 {
+  font-size: 40px;
+  text-align: center;
+  border-bottom: 1px solid black;
+  margin: 0;
+  padding: 30px;
+}
+h2 {
+    border-bottom: 2px solid gray;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    margin-bottom: 0;
+    display: inline-block;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+p {
+  line-height: 30px;
+}
+img {
+  display: block;
+  margin: auto;
+}
+.trunk {
+  margin-bottom: 8px;
+}
+.img {
+  float: left;
+  margin-right: 10px;
+}
+.cookli {
+    padding: 5px;
+    border-bottom: 1px solid gray;
+}
+.centeredpagination {
+  text-align: center;
+}
+.pagination {
+  display: inline-block;
+}
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 14px;
+  text-decoration: none;
+}
+.pagination a.active {
+  background-color: gray;
+  color: white;
+}
+.pagination a:hover:not(.active) {
+  background-color: #ddd;
+}
+#entire {
+  border-right: 1px solid black;
+  padding: 30px;
+  padding-top: 20px;
+  margin: 0;
+  width: 120px;
+  font-size: 18px;
+}
+#grid {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+}
+#cookol {
+    width: 600px;
+    margin: 0;
+    padding: 20px;
+    padding-top: 10px;
+}
+#content {
+  margin: 0;
+  padding-top: 0;
+}
+
+@media (max-width: 750px) {
+  #grid {
+    display: block;
+  }
+  #entire {
+    border-right: none;
+  }
+  h2 {
+    margin: 0;
+  }
+  #content {
+    margin: 0;
+    padding-top: 0;
+    padding-left: 10px;
+  }
+}

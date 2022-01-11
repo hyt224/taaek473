@@ -6,11 +6,11 @@ h1 {
   padding: 30px;
 }
 h2 {
-    border-bottom: 2px solid gray;
-    padding-bottom: 5px;
-    padding-right: 10px;
-    margin-bottom: 0;
-    display: inline-block;
+  border-bottom: 2px solid gray;
+  padding-bottom: 5px;
+  padding-right: 10px;
+  margin-bottom: 0;
+  display: inline-block;
 }
 a {
   text-decoration: none;
@@ -31,8 +31,8 @@ img {
   margin-right: 10px;
 }
 .cookli {
-    padding: 5px;
-    border-bottom: 1px solid gray;
+  padding: 5px;
+  border-bottom: 1px solid gray;
 }
 .centeredpagination {
   text-align: center;
@@ -53,6 +53,10 @@ img {
 .pagination a:hover:not(.active) {
   background-color: #ddd;
 }
+.inlinepic {
+  display: inline-block;
+  margin: auto;
+}
 #entire {
   border-right: 1px solid black;
   padding: 30px;
@@ -66,14 +70,17 @@ img {
   grid-template-columns: 200px 1fr;
 }
 #cookol {
-    width: 600px;
-    margin: 0;
-    padding: 20px;
-    padding-top: 10px;
+  width: 600px;
+  margin: 0;
+  padding: 20px;
+  padding-top: 10px;
 }
 #content {
   margin: 0;
   padding-top: 0;
+}
+#twopic {
+  text-align: center;
 }
 
 @media (max-width: 750px) {

@@ -16,12 +16,21 @@ a {
   text-decoration: none;
   color: black;
 }
+li a:hover {
+  text-decoration: underline;
+}
 p {
   line-height: 30px;
 }
 img {
   display: block;
   margin: auto;
+}
+#left ul {
+  padding-left: 35px;
+}
+#left iframe {
+  padding-left: 5px;
 }
 .trunk {
   margin-bottom: 8px;
@@ -60,17 +69,17 @@ img {
 .twopic {
   text-align: center;
 }
-#entire {
+#left {
   border-right: 1px solid black;
-  padding: 30px;
-  padding-top: 20px;
+  padding-right: 30px;
+  padding-top: 0;
   margin: 0;
-  width: 120px;
+  width: 140px;
   font-size: 18px;
 }
 #grid {
   display: grid;
-  grid-template-columns: 200px 1fr;
+  grid-template-columns: 190px 1fr;
 }
 #cookol {
   width: 600px;
@@ -87,11 +96,12 @@ img {
   #grid {
     display: block;
   }
-  #entire {
+  #left {
     border-right: none;
   }
   h2 {
     margin: 0;
+    margin-top: 10px;
   }
   #content {
     margin: 0;

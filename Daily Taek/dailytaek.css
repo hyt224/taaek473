@@ -1,0 +1,115 @@
+h1 {
+  font-size: 40px;
+  text-align: center;
+  border-bottom: 1px solid black;
+  margin: 0;
+  padding: 30px;
+}
+h2 {
+  border-bottom: 2px solid gray;
+  padding-bottom: 5px;
+  padding-right: 10px;
+  margin-bottom: 0;
+  display: inline-block;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+li a:hover {
+  text-decoration: underline;
+}
+p {
+  line-height: 30px;
+  font-size: 18px;
+}
+strong {
+  font-size: 20px;
+}
+img {
+  display: block;
+  margin: auto;
+}
+#left ul {
+  padding-left: 35px;
+}
+#left iframe {
+  padding-left: 5px;
+}
+.trunk {
+  margin-bottom: 8px;
+}
+.img {
+  float: left;
+  margin-right: 10px;
+}
+.cookli {
+  padding: 5px;
+  border-bottom: 1px solid gray;
+}
+.centeredpagination {
+  text-align: center;
+}
+.pagination {
+  display: inline-block;
+}
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 14px;
+  text-decoration: none;
+}
+.pagination a.active {
+  background-color: gray;
+  color: white;
+}
+.pagination a:hover:not(.active) {
+  background-color: #ddd;
+}
+.inlinepic {
+  display: inline-block;
+  margin: auto;
+}
+.twopic {
+  text-align: center;
+}
+#left {
+  border-right: 1px solid black;
+  padding-right: 30px;
+  padding-top: 0;
+  margin: 0;
+  width: 140px;
+  font-size: 18px;
+}
+#grid {
+  display: grid;
+  grid-template-columns: 190px 1fr;
+}
+#cookol {
+  width: 600px;
+  margin: 0;
+  padding: 20px;
+  padding-top: 10px;
+}
+#content {
+  margin: 0;
+  padding-top: 0;
+}
+
+@media (max-width: 750px) {
+  #grid {
+    display: block;
+  }
+  #left {
+    border-right: none;
+  }
+  h2 {
+    margin: 0;
+    margin-top: 10px;
+  }
+  #content {
+    margin: 0;
+    padding-top: 0;
+    padding-left: 10px;
+  }
+}

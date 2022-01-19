@@ -85,6 +85,7 @@ a .preimg:hover {
   display: inline-block;
   width: 150px;
   height: 150px;
+  opacity: 1;
 }
 .home {
   margin-top: 0;
